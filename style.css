@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+html, body {
+	font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+img {
+	max-width: 100%;
+}
+body.active {
+    overflow: hidden;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: blue;
+}
+.my-img {
+    max-width: 20%;
+    margin: 0;
+}
+.my-skills {
+    margin: 0;
+}
+.my-information {
+    max-width: 700px;
+}
+footer {
+    text-align: center;
+}
